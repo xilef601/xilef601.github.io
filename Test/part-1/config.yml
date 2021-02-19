@@ -27,19 +27,19 @@ items:
     description: "Addiere 5+5"
     evaluation: "5+5=10"
     answers:
-    - name: 5
-    - name: 10
-      points: 1
+    - name: "5"
+    - name: "10"
+      points: "1"
       correct: true
-    - name: 15
-    - name: 20
+    - name: "15"
+    - name: "20"
   - title: "Wie viele Fälle gibt es in der deutschen Sprache?"
     description: "Wie viele Fälle gibt es in der deutschen Sprache?"
     evaluation: "Es gibt 4 Fälle: Nominativ; Genitiv; Dativ; Akkusativ"
     answers:
-    - name: 2
-    - name: 3
-    - name: 4
+    - name: "2"
+    - name: "3"
+    - name: "4"
       points: 4
       correct: true
-    - name: 5
+    - name: "5"
