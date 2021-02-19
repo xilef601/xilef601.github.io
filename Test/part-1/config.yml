@@ -1,0 +1,45 @@
+# The name of the current part. The name will stand on the sidebar
+name: Level 1
+
+# Optional: The description of the part
+description: Das ist ein Test-Level.
+
+# Assets which will be cached if the user is offline. The assets need to be in the asset directory
+assets: []
+
+# The content of the part.
+items:
+- name: Willkommen!
+  description: Schön, dass du hier bist.
+  type: video
+  source: youtube
+  url: ScMzIvxBSi4
+- name: Hinweise!
+  type: text
+  text: >
+    Das Quiz ist ein **leichtes** Quiz, welches ich zu **Testzwecken** erstellt habe.
+- name: Quiz
+  # Optional: Max time in seconds (here: 10 minutes)
+  #time: 600
+  type: quiz
+  questions:
+  - title: Was ist 5+5?
+    description: Addiere 5+5
+    evaluation: 5+5=10
+    answers:
+    - name: 5
+    - name: 10
+      points: 1
+      correct: true
+    - name: 15
+    - name: 20
+  - title: Wie viele Fälle gibt es in der deutschen Sprache?
+    description: Wie viele Fälle gibt es in der deutschen Sprache?
+    evaluation: Es gibt 4 Fälle: Nominativ; Genitiv; Dativ; Akkusativ
+    answers:
+    - name: 2
+    - name: 3
+    - name: 4
+      points: 4
+      correct: true
+    - name: 5
