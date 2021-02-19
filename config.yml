@@ -1,0 +1,10 @@
+# The name of the current backend
+name: "xilef601"
+# The icon of the backend. Supported values are [png, jpg, svg, null]
+icon: png
+# All courses of the current backend
+courses:
+  - Test
+support_url: https://discord.linwood.tk
+body: |
+  This is an example backend to demonstrate the functionality of the app.
