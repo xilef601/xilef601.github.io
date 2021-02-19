@@ -58,7 +58,7 @@ category: []
 lang: de
 
 # Controls if the course is shown in the list
-private: false
+private: true
 
 # The course. See the preview to understand all config entries
 parts:
