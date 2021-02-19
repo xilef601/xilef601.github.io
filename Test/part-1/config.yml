@@ -9,8 +9,8 @@ assets: []
 
 # The content of the part.
 items:
-- name: Willkommen!
-  description: Schön, dass du hier bist.
+- name: "Willkommen!"
+  description: "Schön, dass du hier bist."
   type: video
   source: youtube
   url: ScMzIvxBSi4
@@ -23,9 +23,9 @@ items:
   #time: 600
   type: quiz
   questions:
-  - title: Was ist 5+5?
-    description: Addiere 5+5
-    evaluation: 5+5=10
+  - title: "Was ist 5+5?"
+    description: "Addiere 5+5"
+    evaluation: "5+5=10"
     answers:
     - name: 5
     - name: 10
@@ -33,9 +33,9 @@ items:
       correct: true
     - name: 15
     - name: 20
-  - title: Wie viele Fälle gibt es in der deutschen Sprache?
-    description: Wie viele Fälle gibt es in der deutschen Sprache?
-    evaluation: Es gibt 4 Fälle: Nominativ; Genitiv; Dativ; Akkusativ
+  - title: "Wie viele Fälle gibt es in der deutschen Sprache?"
+    description: "Wie viele Fälle gibt es in der deutschen Sprache?"
+    evaluation: "Es gibt 4 Fälle: Nominativ; Genitiv; Dativ; Akkusativ"
     answers:
     - name: 2
     - name: 3
