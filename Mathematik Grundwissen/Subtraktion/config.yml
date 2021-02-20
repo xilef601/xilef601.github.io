@@ -1,0 +1,50 @@
+# The name of the current part. The name will stand on the sidebar
+name: Level 1
+
+# Optional: The description of the part
+description: Das ist ein Test-Level.
+
+# Assets which will be cached if the user is offline. The assets need to be in the asset directory
+assets: []
+
+# The content of the part.
+items:
+- name: "Willkommen!"
+  description: "Schön, dass du hier bist."
+  type: video
+  source: youtube
+  url: wz36IaoYJhk
+- name: Information!
+  type: text
+  text: >
+    "Das ist der Abschnitt mit den wichtigsten Dingen zur Addition, wei zum Beispiel was die Addition überhaupt ist."
+- name: Quiz
+  # Optional: Max time in seconds (here: 10 minutes)
+  #time: 600
+  type: quiz
+  questions:
+  - title: "Was ist die Subtraktion?"
+    description: "Was ist die Subtraktion?"
+    evaluation: "Man zieht Zahlen voneinander ab."
+    answers:
+    - name: "Man zählt Zahlen zusammen."
+    - name: "Man zieht Zahlen voneinander ab."
+      points: 5
+      correct: true
+    - name: "Man nimmt Zahlen so oft wie eine andere Zahl."
+    - name: "Man teilt Zahlen durch eine andere."
+  - title: "Was ist die Addition?"
+    description: "Wie ist die Addition aufgebaut?"
+    evaluation: ""
+    answers:
+    - name: "Minuend-Subtrahend=Wert der Differenz"
+      points: 5
+      correct: true
+    - name: "Faktor*Faktor=Produkt"
+    - name: "Summand+Summand=Summe"
+    - name: "Dividend/Divisor=Quotient"
+- name: "Ende"
+  description: "Du hast es geschafft!"
+  type: text
+  text: >
+    "Das war es leider auch von diesem Kurs. Mehr Inhalt ist geplant und kommt bald. Bis dahin!"

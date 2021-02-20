@@ -30,5 +30,6 @@ private: true
 # The course. See the preview to understand all config entries
 parts:
 - Addition
+- Subtraktion
 
 
