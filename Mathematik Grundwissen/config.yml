@@ -1,0 +1,34 @@
+# The icon of the backend. Supported values are [png, jpg, svg, null]
+icon: png
+
+# The name of the course. You can see it in the title or in the list
+name: Test
+
+# The author. It will appear on the front page and on the courses list
+author: xilef601
+author_url: https://www.twitch.tv/xilef601/
+author_avatar: https://github.com/xilef601/xilef601.github.io/blob/master/icon.png?raw=true
+
+# The description of the course which can be seen in the list of the courses and the intro page.
+description: >
+  "Mathemetik Grundwissen"
+# The body is posting on the home page of the course page. Source: https://remarkjs.github.io/react-markdown/
+body: |
+  "Hallo,
+  schön, dass du den Kurs zum Grundwissen in der Mathematik angeklickt hast. Dieser Kurs wird sich erstmal auf das **wesentliche** beschränken. Wir werden dich im Fack Mathematik wieder Fit machen und ich denke, dass Dev-Doctor eine wunderbare Plattform dafür ist. Ich werde alles in einzelne Abschnitte unterteilen, sodass ihr genau die Sachen wiederholen könnt, die euch entweder Spaß oder Schwierigkeiten machen. 
+  Ich wünsche euch dabei viel Spaß!
+
+# The current category of the course. You can see the categories in the list
+category: [Mathematik]
+
+# The language of the course. You can see a flag as a badge of the course.
+lang: de
+
+# Controls if the course is shown in the list
+private: true
+
+# The course. See the preview to understand all config entries
+parts:
+- Addition
+
+

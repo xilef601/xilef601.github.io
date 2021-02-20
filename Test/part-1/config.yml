@@ -29,7 +29,7 @@ items:
     answers:
     - name: "5"
     - name: "10"
-      points: "1"
+      points: 1
       correct: true
     - name: "15"
     - name: "20"
