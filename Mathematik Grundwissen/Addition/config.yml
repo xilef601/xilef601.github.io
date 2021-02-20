@@ -33,18 +33,13 @@ items:
     - name: "Man zieht Zahlen voneinander ab."
     - name: "Man nimmt Zahlen so oft wie eine andere Zahl."
     - name: "Man teilt Zahlen durch eine andere."
-  - title: "Was ist die Addition?"
+  - title: "Wie ist die Addition aufgebaut?"
     description: "Wie ist die Addition aufgebaut?"
-    evaluation: ""
+    evaluation: "Summand+Summand=Wert der Summe"
     answers:
     - name: "Minuend-Subtrahend=Wert der Differenz"
-    - name: "Faktor*Faktor=Produkt"
-    - name: "Summand+Summand=Summe"
+    - name: "Faktor*Faktor=Wert des Produkts"
+    - name: "Summand+Summand=Wert der Summe"
       points: 5
       correct: true
-    - name: "Dividend/Divisor=Quotient"
-- name: "Ende"
-  description: "Du hast es geschafft!"
-  type: text
-  text: >
-    "Das war es leider auch von diesem Kurs. Mehr Inhalt ist geplant und kommt bald. Bis dahin!"
+    - name: "Dividend/Divisor=Wert des Quotienten"

@@ -23,23 +23,23 @@ items:
   #time: 600
   type: quiz
   questions:
-  - title: "Was ist die Subtraktion?"
-    description: "Was ist die Subtraktion?"
+  - title: "Was ist die Multiplikation?"
+    description: "Was ist die Multiplikation?"
     evaluation: "Man zieht Zahlen voneinander ab."
     answers:
     - name: "Man zählt Zahlen zusammen."
     - name: "Man zieht Zahlen voneinander ab."
+    - name: "Man nimmt Zahlen so oft wie eine andere Zahl."
       points: 5
       correct: true
-    - name: "Man nimmt Zahlen so oft wie eine andere Zahl."
     - name: "Man teilt Zahlen durch eine andere."
-  - title: "Wie ist die Subtraktion aufgebaut?"
-    description: "Wie ist die Subtraktion aufgebaut?"
-    evaluation: "Minuend-Subtrahend=Wert der Differenz"
+  - title: "Wie ist die Multiplikation aufgebaut?"
+    description: "Wie ist die Multiplikation aufgebaut?"
+    evaluation: "Faktor*Faktor=Wert des Produkts"
     answers:
     - name: "Minuend-Subtrahend=Wert der Differenz"
+    - name: "Faktor*Faktor=Wert des Produkts"
       points: 5
       correct: true
-    - name: "Faktor*Faktor=Wert des Produkts"
     - name: "Summand+Summand=Wert der Summe"
     - name: "Dividend/Divisor=Wert des Quotienten"

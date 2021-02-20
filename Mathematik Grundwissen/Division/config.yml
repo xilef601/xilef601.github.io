@@ -23,23 +23,28 @@ items:
   #time: 600
   type: quiz
   questions:
-  - title: "Was ist die Subtraktion?"
-    description: "Was ist die Subtraktion?"
-    evaluation: "Man zieht Zahlen voneinander ab."
+  - title: "Was ist die Division?"
+    description: "Was ist die Division?"
+    evaluation: "Man teilt Zahlen durch eine andere."
     answers:
     - name: "Man zählt Zahlen zusammen."
     - name: "Man zieht Zahlen voneinander ab."
-      points: 5
-      correct: true
     - name: "Man nimmt Zahlen so oft wie eine andere Zahl."
     - name: "Man teilt Zahlen durch eine andere."
-  - title: "Wie ist die Subtraktion aufgebaut?"
-    description: "Wie ist die Subtraktion aufgebaut?"
-    evaluation: "Minuend-Subtrahend=Wert der Differenz"
-    answers:
-    - name: "Minuend-Subtrahend=Wert der Differenz"
       points: 5
       correct: true
+  - title: "Wie ist die Division aufgebaut?"
+    description: "Wie ist die Division aufgebaut?"
+    evaluation: "Faktor*Faktor=Wert des Produkts"
+    answers:
+    - name: "Minuend-Subtrahend=Wert der Differenz"
     - name: "Faktor*Faktor=Wert des Produkts"
     - name: "Summand+Summand=Wert der Summe"
     - name: "Dividend/Divisor=Wert des Quotienten"
+      points: 5
+      correct: true
+- name: "Ende"
+  description: "Du hast es geschafft!"
+  type: text
+  text: >
+    "Das war es leider auch von diesem Kurs. Mehr Inhalt ist geplant und kommt bald. Bis dahin!"
