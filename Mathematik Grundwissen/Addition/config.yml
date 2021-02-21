@@ -2,14 +2,14 @@
 name: Addition
 
 # Optional: The description of the part
-description: Das ist der Test zur Addition.
+description: Hier erlernt ihr die Hauptbegriffe der Grundrechenarten.
 
 # Assets which will be cached if the user is offline. The assets need to be in the asset directory
 assets: []
 
 # The content of the part.
 items:
-- name: Quiz
+- name: Addition
   # Optional: Max time in seconds (here: 10 minutes)
   #time: 600
   type: quiz
