@@ -31,5 +31,7 @@ private: true
 parts:
 - Addition
 - Subtraktion
+- Multiplikation
+- Division
 
 

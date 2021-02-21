@@ -1,0 +1,32 @@
+# The name of the current part. The name will stand on the sidebar
+name: Level 1
+
+# Optional: The description of the part
+description: Das ist ein Test-Level.
+
+# Assets which will be cached if the user is offline. The assets need to be in the asset directory
+assets: []
+
+# The content of the part.
+items:
+- name: "Willkommen!"
+  description: "Schön, dass du hier bist."
+  type: video
+  source: youtube
+  url: wz36IaoYJhk
+- name: Informationen!
+  type: text
+  text: >
+    "Jetzt erstmal: Was wird dich erwarten? Wir werden zusammen die Gesetze der Mathematik erlernen und testen. Dabei wünsche ich dir Viel Spaß :)
+    Was brauche ich an vorwissen: Du solltest auf jeden Fall schon die Gebiete Addition, Subtraktion, Multiplikation und Division behandelt haben."
+- name: "Lernen..."
+  description: "Hier sind die Rechengesetze aufgelistet, die wir besprechen. Bitte lerne diese **auswendig**, damit du im Quiz mit ihnen arbeitn kannst."
+  text: >
+    "Ich hätte gesagt, dass wir mit den wichtigsten Gesetzen der Addition anfangen:
+    **1.** Kommutativgesetz der Addition: Das Gesetz sagt uns, dass a+b=b+a ist. Wir dürfen die Zahlen **innerhalb einer Summe** (die Additions-Aufgabe) so drehen und tauschen dürfen, wie wir wollen.
+    **2.** Assoziativgesetz der Addition: Und direkt vorweg, das Rechengesetz ist **nicht** asozial. Es hilft uns sogar, leichter zu rechnen. Das Rechengesetz erlaubt uns, dass a+b+c=(a+b)+c=a+(b+c) ist. Wir dürfen **innerhalb einer Summe** Klammern setzen wie wir lustig sind :)
+    
+    Die oben beschriebenen Rechengesetze sind zwei sehr wichtige Gesetze der Addition.
+    
+    Kommen wir zur Subtraktion:
+    **Coming Soon!** "

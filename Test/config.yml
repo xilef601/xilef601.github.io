@@ -18,7 +18,7 @@ body: |
   Dieses Quiz wurde zu Testzwecken erstellt.
 
 # The current category of the course. You can see the categories in the list
-category: []
+category: [Test]
 
 # The language of the course. You can see a flag as a badge of the course.
 lang: de
