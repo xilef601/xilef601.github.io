@@ -1,21 +1,15 @@
 # The name of the current part. The name will stand on the sidebar
-name: Level 1
+name: Gsetze der Mathematik (lernen)
 
 # Optional: The description of the part
-description: Das ist ein Test-Level.
+description: Dieser Abschnitt ist ein Lern-Abschnitt.
 
 # Assets which will be cached if the user is offline. The assets need to be in the asset directory
 assets: []
 
 # The content of the part.
 items:
-- name: "Willkommen!"
-  description: "Schön, dass du hier bist."
-  type: video
-  source: youtube
-  url: wz36IaoYJhk
-- name: Informationen!
-  type: text
+- name: Hinweise!
   text: >
     "Jetzt erstmal: Was wird dich erwarten? Wir werden zusammen die Gesetze der Mathematik erlernen und testen. Dabei wünsche ich dir Viel Spaß :)
     Was brauche ich an vorwissen: Du solltest auf jeden Fall schon die Gebiete Addition, Subtraktion, Multiplikation und Division behandelt haben."

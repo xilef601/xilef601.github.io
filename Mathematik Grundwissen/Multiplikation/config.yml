@@ -1,23 +1,14 @@
 # The name of the current part. The name will stand on the sidebar
-name: Level 1
+name: Multiplikation
 
 # Optional: The description of the part
-description: Das ist ein Test-Level.
+description: Das ist der Test zur Multiplikation.
 
 # Assets which will be cached if the user is offline. The assets need to be in the asset directory
 assets: []
 
 # The content of the part.
 items:
-- name: "Willkommen!"
-  description: "Schön, dass du hier bist."
-  type: video
-  source: youtube
-  url: wz36IaoYJhk
-- name: Information!
-  type: text
-  text: >
-    "Das ist der Abschnitt mit den wichtigsten Dingen zur Addition, wei zum Beispiel was die Addition überhaupt ist."
 - name: Quiz
   # Optional: Max time in seconds (here: 10 minutes)
   #time: 600
