@@ -29,6 +29,10 @@ private: true
 
 # The course. See the preview to understand all config entries
 parts:
-- Hauptbegriffe_Grundrechenarten
+- Start
+- Addition
+- Subtraktion
+- Multiplikation
+- Division
 
 

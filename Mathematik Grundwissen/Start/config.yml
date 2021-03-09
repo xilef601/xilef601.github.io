@@ -1,0 +1,21 @@
+# The name of the current part. The name will stand on the sidebar
+name: Willkommen
+
+# Optional: The description of the part
+description: Der Willkommen Abschnitt erklärt euch, wie dieser Kurs funktioniert.
+
+# Assets which will be cached if the user is offline. The assets need to be in the asset directory
+assets: []
+
+# The content of the part.
+items:
+- name: Anleitung
+  # Optional: Max time in seconds (here: 10 minutes)
+  #time: 600
+  type: text
+  - text: >
+    "Hallo, 
+    schön, dass du diesen Kurs angeklickt hast :) Mal schauen, ob du ein echter Mathematik Profi bist...
+    Dieser Kurs hat verschiedene Abschnitte, das heißt, dass du oben links bei den drei Strichen den jeweiligen Abschnitt auswählen musst.
+    Ich wünsche dir viel Spaß
+    xilef601"
